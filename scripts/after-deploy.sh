@@ -12,4 +12,4 @@
   echo "--- npm-install.log:"; cat "$HOME/npm-install.log" 2>&1
   echo "--- pm2 ls:"; pm2 ls 2>&1
 } >> "$HOME/hook-diag.log" 2>&1
-exit 0
+exit 1
