@@ -1,0 +1,9 @@
+{
+  "name": "deploy-test",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "postinstall": "echo \"$(date +%T) npm install ran\" >> $HOME/npm-install.log"
+  },
+  "dependencies": { "ms": "2.1.3" }
+}
